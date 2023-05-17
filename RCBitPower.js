@@ -8,7 +8,6 @@ Purpose: Teach beginner programmers simple syntax
 
 
 //To the extent possible under law, Rylei C has waived all copyright and related or neighboring rights to RCBitPower. This work is published from: United States. 
-//
 
 
 
