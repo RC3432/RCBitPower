@@ -18,20 +18,20 @@ function main() //Runs the following sequence
 {
    //The keyword 'var' creates a variable, this allows you to define, alter, evaluate and manipulate data values in the program.
 
-    var num = 2; //Declares the number to be evaluated as 2, try changing the number!
-    var power = 0; //Declares the power increase, which adjusts how much the power increases with every iteration. Note that the code below doesn't account for negative or less than 1 numbers.
-    var bit = 32; //Declares how many bits are counted. This number divided by 8 also determines the number of bytes!
+    var num = 2; //Defines the number to be evaluated as 2, try changing the number!
+    var power = 0; //Definess the power increase, which adjusts how much the power increases with every iteration. Note that the code below doesn't account for negative or less than 1 numbers.
+    var bit = 32; //Defines how many bits are counted. This number divided by 8 also determines the number of bytes!
 
-    var pow_min; //Defines the power minimum, which is the lowest number from the sequence about to be produced.
-    var pow_max; //Defines the power maximum, which is the highest number from the sequence about to be produced.
+    var pow_min; //Declares the power minimum, which is the lowest number from the sequence about to be produced.
+    var pow_max; //Declares the power maximum, which is the highest number from the sequence about to be produced.
 
-    const BIT_IN_BYTES = 8; //Declares the amount of bits in a byte. Note that this variable is declared by 'const'. This is a constant variable, and cannot be altered in run-time, or program execution. This is useful for numbers that will never change!
-    const BYTES_IN_KBYTES = 1028; //Declares the amount of bytes in a kilobyte. Note that this is also a constant, which will not change in runtime. For computing reasons, a kilobyte is technically 1024 bytes, not 1000.
+    const BIT_IN_BYTES = 8; //Defines the amount of bits in a byte. Note that this variable is defined by 'const'. This is a constant variable, and cannot be altered in run-time, or program execution. This is useful for numbers that will never change!
+    const BYTES_IN_KBYTES = 1028; //Defines the amount of bytes in a kilobyte. Note that this is also a constant, which will not change in runtime. For computing reasons, a kilobyte is technically 1024 bytes, not 1000.
 
 
     console.log("Here is all powers of " + num + " to " + bit + " bits!"); //Prints an introduction message, not the ability to embed variables within the message! Text within quotes is called a string (Text). In this context, it's a literal string, or a string that isn't defined as a variable.
 
-    for (var i = 0; i < bit; i++) //Repeat bit times. This declares a variable as 'i', then as long as 'i' is less than bit, it will call the code below, adding 1 to 'i' each time until it reaches bit.
+    for (var i = 0; i < bit; i++) //Repeat bit times. This defines a variable as 'i', then as long as 'i' is less than bit, it will call the code below, adding 1 to 'i' each time until it reaches bit.
     {
         if (power <= 1) //If the power is less than or is equal to 1,
         {
