@@ -7,9 +7,9 @@ Purpose: Teach beginner programmers simple syntax
 */
 
 
+//CODE THAT IS ON THE SAME LINE AND AFTER A '//' OR BETWEEN A '/* */' IS A COMMENT, AND WILL NOT BE EXECUTED NOR COMPILED
+
 //To the extent possible under law, Rylei C has waived all copyright and related or neighboring rights to RCBitPower. This work is published from: United States. 
-
-
 
 
 main(); //Calls the function main, a function is a collection of code that can run code repeatedly, accept parameters, and return values. These are vital to preventing boilerplate code, or repeated bloating code.
