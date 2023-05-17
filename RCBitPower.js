@@ -29,7 +29,7 @@ function main() //Runs the following sequence
     const BYTES_IN_KBYTES = 1028; //Declares the amount of bytes in a kilobyte. Note that this is also a constant, which will not change in runtime. For computing reasons, a kilobyte is technically 1024 bytes, not 1000.
 
 
-    console.log("Here is all powers of " + num + " to " + bit +" bits!"); //Prints an introduction message, not the ability to embed variables within the message! Text within quotes is called a string (Text). In this context, it's a literal string, or a string that isn't defined as a variable.
+    console.log("Here is all powers of " + num + " to " + bit + " bits!"); //Prints an introduction message, not the ability to embed variables within the message! Text within quotes is called a string (Text). In this context, it's a literal string, or a string that isn't defined as a variable.
 
     for (var i = 0; i < bit; i++) //Repeat bit times. This declares a variable as 'i', then as long as 'i' is less than bit, it will call the code below, adding 1 to 'i' each time until it reaches bit.
     {
